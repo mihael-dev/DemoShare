@@ -1,0 +1,1984 @@
+{
+	"jsonrpc": "2.0",
+	"id": 3,
+	"delta": true,
+	"result": {
+		"qFunctions": [
+			{
+				"qName": "NATIVE",
+				"qGroup": "EXT",
+				"qSignature": "dual NATIVE (statement)"
+			},
+			{
+				"qName": "Pi",
+				"qGroup": "MATH",
+				"qSignature": "num Pi ()"
+			},
+			{
+				"qName": "Null",
+				"qGroup": "MATH",
+				"qSignature": "dual Null ()"
+			},
+			{
+				"qName": "e",
+				"qGroup": "MATH",
+				"qSignature": "num e ()"
+			},
+			{
+				"qName": "True",
+				"qGroup": "MATH",
+				"qSignature": "dual True ()"
+			},
+			{
+				"qName": "False",
+				"qGroup": "MATH",
+				"qSignature": "dual False ()"
+			},
+			{
+				"qName": "DaylightSaving",
+				"qGroup": "DATE",
+				"qSignature": "num DaylightSaving ()"
+			},
+			{
+				"qName": "TimeZone",
+				"qGroup": "DATE",
+				"qSignature": "dual TimeZone()"
+			},
+			{
+				"qName": "Rand",
+				"qGroup": "PROB",
+				"qSignature": "num Rand ()"
+			},
+			{
+				"qName": "Pow",
+				"qGroup": "EXP",
+				"qSignature": "num Pow (x, y)"
+			},
+			{
+				"qName": "Atan2",
+				"qGroup": "TRIG",
+				"qSignature": "num Atan2 (y, x)"
+			},
+			{
+				"qName": "fMod",
+				"qGroup": "NUM",
+				"qSignature": "num fMod (a, b)"
+			},
+			{
+				"qName": "Acos",
+				"qGroup": "TRIG",
+				"qSignature": "num Acos (x)"
+			},
+			{
+				"qName": "Asin",
+				"qGroup": "TRIG",
+				"qSignature": "num Asin (x)"
+			},
+			{
+				"qName": "Asinh",
+				"qGroup": "TRIG",
+				"qSignature": "num Asinh (x)"
+			},
+			{
+				"qName": "Atan",
+				"qGroup": "TRIG",
+				"qSignature": "num Atan (x)"
+			},
+			{
+				"qName": "Acosh",
+				"qGroup": "TRIG",
+				"qSignature": "num Acosh (x)"
+			},
+			{
+				"qName": "Cos",
+				"qGroup": "TRIG",
+				"qSignature": "num Cos (x)"
+			},
+			{
+				"qName": "Cosh",
+				"qGroup": "TRIG",
+				"qSignature": "num Cosh (x)"
+			},
+			{
+				"qName": "Exp",
+				"qGroup": "EXP",
+				"qSignature": "num Exp (x)"
+			},
+			{
+				"qName": "fAbs",
+				"qGroup": "NUM",
+				"qSignature": "num fAbs (x)"
+			},
+			{
+				"qName": "Floor",
+				"qGroup": "NUM",
+				"qSignature": "num Floor (x [, step [, offset]])"
+			},
+			{
+				"qName": "Ceil",
+				"qGroup": "NUM",
+				"qSignature": "num Ceil (x [, step [, offset]])"
+			},
+			{
+				"qName": "Round",
+				"qGroup": "NUM",
+				"qSignature": "num Round (x [, step [, offset]])"
+			},
+			{
+				"qName": "PV",
+				"qGroup": "FIN",
+				"qSignature": "num PV (rate, nper, pmt [, fv=0 [, type=0]])"
+			},
+			{
+				"qName": "FV",
+				"qGroup": "FIN",
+				"qSignature": "num FV (rate, nper, pmt [, pv=0 [, type=0]])"
+			},
+			{
+				"qName": "Pmt",
+				"qGroup": "FIN",
+				"qSignature": "num Pmt (rate, nper, pv [, fv=0 [, type=0]])"
+			},
+			{
+				"qName": "nPer",
+				"qGroup": "FIN",
+				"qSignature": "num nPer (rate, pmt, pv [, fv=0 [, type=0]])"
+			},
+			{
+				"qName": "Rate",
+				"qGroup": "FIN",
+				"qSignature": "num Rate (nper, pmt, pv [, fv=0 [, type=0]])"
+			},
+			{
+				"qName": "Log",
+				"qGroup": "EXP",
+				"qSignature": "num Log (x)"
+			},
+			{
+				"qName": "Log10",
+				"qGroup": "EXP",
+				"qSignature": "num Log10 (x)"
+			},
+			{
+				"qName": "Sin",
+				"qGroup": "TRIG",
+				"qSignature": "num Sin (x)"
+			},
+			{
+				"qName": "Sinh",
+				"qGroup": "TRIG",
+				"qSignature": "num Sinh (x)"
+			},
+			{
+				"qName": "Sqrt",
+				"qGroup": "EXP",
+				"qSignature": "num Sqrt (x)"
+			},
+			{
+				"qName": "Sqr",
+				"qGroup": "EXP",
+				"qSignature": "num Sqr (x)"
+			},
+			{
+				"qName": "Atanh",
+				"qGroup": "TRIG",
+				"qSignature": "num Atanh (x)"
+			},
+			{
+				"qName": "Tan",
+				"qGroup": "TRIG",
+				"qSignature": "num Tan (x)"
+			},
+			{
+				"qName": "Tanh",
+				"qGroup": "TRIG",
+				"qSignature": "num Tanh (x)"
+			},
+			{
+				"qName": "Sign",
+				"qGroup": "NUM",
+				"qSignature": "num Sign (x)"
+			},
+			{
+				"qName": "Fact",
+				"qGroup": "NUM",
+				"qSignature": "num Fact (x)"
+			},
+			{
+				"qName": "Permut",
+				"qGroup": "PROB",
+				"qSignature": "int Permut (p, q)"
+			},
+			{
+				"qName": "Combin",
+				"qGroup": "PROB",
+				"qSignature": "int Combin (p, q)"
+			},
+			{
+				"qName": "Black",
+				"qGroup": "CLR",
+				"qSignature": "int Black ([alpha=255])"
+			},
+			{
+				"qName": "Blue",
+				"qGroup": "CLR",
+				"qSignature": "int Blue ([alpha=255])"
+			},
+			{
+				"qName": "Green",
+				"qGroup": "CLR",
+				"qSignature": "int Green ([alpha=255])"
+			},
+			{
+				"qName": "Cyan",
+				"qGroup": "CLR",
+				"qSignature": "int Cyan ([alpha=255])"
+			},
+			{
+				"qName": "Red",
+				"qGroup": "CLR",
+				"qSignature": "int Red ([alpha=255])"
+			},
+			{
+				"qName": "Magenta",
+				"qGroup": "CLR",
+				"qSignature": "int Magenta ([alpha=255])"
+			},
+			{
+				"qName": "Brown",
+				"qGroup": "CLR",
+				"qSignature": "int Brown ([alpha=255])"
+			},
+			{
+				"qName": "LightGray",
+				"qGroup": "CLR",
+				"qSignature": "int LightGray ([alpha=255])"
+			},
+			{
+				"qName": "DarkGray",
+				"qGroup": "CLR",
+				"qSignature": "int DarkGray ([alpha=255])"
+			},
+			{
+				"qName": "LightBlue",
+				"qGroup": "CLR",
+				"qSignature": "int LightBlue ([alpha=255])"
+			},
+			{
+				"qName": "LightGreen",
+				"qGroup": "CLR",
+				"qSignature": "int LightGreen ([alpha=255])"
+			},
+			{
+				"qName": "LightCyan",
+				"qGroup": "CLR",
+				"qSignature": "int LightCyan ([alpha=255])"
+			},
+			{
+				"qName": "LightRed",
+				"qGroup": "CLR",
+				"qSignature": "int LightRed ([alpha=255])"
+			},
+			{
+				"qName": "LightMagenta",
+				"qGroup": "CLR",
+				"qSignature": "int LightMagenta ([alpha=255])"
+			},
+			{
+				"qName": "Yellow",
+				"qGroup": "CLR",
+				"qSignature": "int Yellow ([alpha=255])"
+			},
+			{
+				"qName": "White",
+				"qGroup": "CLR",
+				"qSignature": "int White ([alpha=255])"
+			},
+			{
+				"qName": "QlikTechBlue",
+				"qGroup": "LEG",
+				"qSignature": "int QlikTechBlue ([alpha=255])"
+			},
+			{
+				"qName": "QlikTechGray",
+				"qGroup": "LEG",
+				"qSignature": "int QlikTechGray ([alpha=255])"
+			},
+			{
+				"qName": "RangeNpv",
+				"qGroup": "FIN",
+				"qSignature": "num RangeNpv (discount_rate, value, ...)"
+			},
+			{
+				"qName": "RangeIrr",
+				"qGroup": "FIN",
+				"qSignature": "num RangeIrr (value, value, ...)"
+			},
+			{
+				"qName": "RangeXnpv",
+				"qGroup": "FIN",
+				"qSignature": "num RangeXnpv (discount_rate, values, dates, ...)"
+			},
+			{
+				"qName": "RangeXirr",
+				"qGroup": "FIN",
+				"qSignature": "num RangeXirr (values, dates, ...)"
+			},
+			{
+				"qName": "BlackAndSchole",
+				"qGroup": "FIN",
+				"qSignature": "num BlackAndSchole (strike, time_left, underlying, vol, risk_free_rate, call_or_put)"
+			},
+			{
+				"qName": "RangeCorrel",
+				"qGroup": "RNG",
+				"qSignature": "num RangeCorrel (x_values, y_values, ...)"
+			},
+			{
+				"qName": "ChiDist",
+				"qGroup": "PROB",
+				"qSignature": "num ChiDist (value, degrees_freedom)"
+			},
+			{
+				"qName": "ChiInv",
+				"qGroup": "PROB",
+				"qSignature": "num ChiInv (prob, degrees_freedom)"
+			},
+			{
+				"qName": "NormDist",
+				"qGroup": "PROB",
+				"qSignature": "num NormDist (value[, mean=0.0[, standard_dev=1.0[, cumulative=1]]])"
+			},
+			{
+				"qName": "NormInv",
+				"qGroup": "PROB",
+				"qSignature": "num NormInv (prob, mean, standard_dev)"
+			},
+			{
+				"qName": "TDist",
+				"qGroup": "PROB",
+				"qSignature": "num TDist (value, degrees_freedom, tails)"
+			},
+			{
+				"qName": "TInv",
+				"qGroup": "PROB",
+				"qSignature": "num TInv (prob, degrees_freedom)"
+			},
+			{
+				"qName": "FDist",
+				"qGroup": "PROB",
+				"qSignature": "num FDist (value, degrees_freedom1, degrees_freedom2)"
+			},
+			{
+				"qName": "FInv",
+				"qGroup": "PROB",
+				"qSignature": "num FInv (prob, degrees_freedom1, degrees_freedom2)"
+			},
+			{
+				"qName": "GeoBoundingBox",
+				"qGroup": "GEO",
+				"qSignature": "str GeoBoundingBox (field_name)"
+			},
+			{
+				"qName": "GeoReduceGeometry",
+				"qGroup": "GEO",
+				"qSignature": "str GeoReduceGeometry (field_name[, value])"
+			},
+			{
+				"qName": "GeoProjectGeometry",
+				"qGroup": "GEO",
+				"qSignature": "str GeoProjectGeometry (type, field_name)"
+			},
+			{
+				"qName": "GeoInvProjectGeometry",
+				"qGroup": "GEO",
+				"qSignature": "str GeoInvProjectGeometry (type, field_name)"
+			},
+			{
+				"qName": "GeoProject",
+				"qGroup": "GEO",
+				"qSignature": "str GeoProject (type, field_name)"
+			},
+			{
+				"qName": "GeoGetBoundingBox",
+				"qGroup": "GEO",
+				"qSignature": "str GeoGetBoundingBox (field_name)"
+			},
+			{
+				"qName": "GeoGetPolygonCenter",
+				"qGroup": "GEO",
+				"qSignature": "str GeoGetPolygonCenter (field_name)"
+			},
+			{
+				"qName": "GeoMakePoint",
+				"qGroup": "GEO",
+				"qSignature": "str GeoMakePoint (lat_field_name, lon_field_name)"
+			},
+			{
+				"qName": "GeoAggrGeometry",
+				"qGroup": "GEO",
+				"qSignature": "str GeoAggrGeometry (field_name)"
+			},
+			{
+				"qName": "GeoCountVertex",
+				"qGroup": "GEO",
+				"qSignature": "int GeoCountVertex (field_name)"
+			},
+			{
+				"qName": "TTest_t",
+				"qGroup": "PROB",
+				"qSignature": "num TTest_t (grp, value[, eq_var=1])"
+			},
+			{
+				"qName": "TTestw_t",
+				"qGroup": "PROB",
+				"qSignature": "num TTestw_t (weight, grp, value[, eq_var=1[, weight_type=0]])"
+			},
+			{
+				"qName": "TTest_DF",
+				"qGroup": "PROB",
+				"qSignature": "num TTest_DF (grp, value[, eq_var=1])"
+			},
+			{
+				"qName": "TTestw_DF",
+				"qGroup": "PROB",
+				"qSignature": "num TTestw_DF (weight, grp, value[, eq_var=1[, weight_type=0]])"
+			},
+			{
+				"qName": "TTest_Sig",
+				"qGroup": "PROB",
+				"qSignature": "num TTest_Sig (grp, value[, eq_var=1])"
+			},
+			{
+				"qName": "TTestw_Sig",
+				"qGroup": "PROB",
+				"qSignature": "num TTestw_Sig (weight, grp, value[, eq_var=1[, weight_type=0]])"
+			},
+			{
+				"qName": "TTest_Dif",
+				"qGroup": "PROB",
+				"qSignature": "num TTest_Dif (grp, value)"
+			},
+			{
+				"qName": "TTestw_Dif",
+				"qGroup": "PROB",
+				"qSignature": "num TTestw_Dif (weight, grp, value)"
+			},
+			{
+				"qName": "TTest_StErr",
+				"qGroup": "PROB",
+				"qSignature": "num TTest_StErr (grp, value[, eq_var=1])"
+			},
+			{
+				"qName": "TTestw_StErr",
+				"qGroup": "PROB",
+				"qSignature": "num TTestw_StErr (weight, grp, value[, eq_var=1[, weight_type=0]])"
+			},
+			{
+				"qName": "TTest_Conf",
+				"qGroup": "PROB",
+				"qSignature": "num TTest_Conf (grp, value[, sig = 0.025[, eq_var=1]])"
+			},
+			{
+				"qName": "TTestw_Conf",
+				"qGroup": "PROB",
+				"qSignature": "num TTestw_Conf (weight, grp, value[, sig = 0.025[, eq_var=1[, weight_type=0]]])"
+			},
+			{
+				"qName": "TTest_Lower",
+				"qGroup": "PROB",
+				"qSignature": "num TTest_Lower (grp, value[, sig = 0.025[, eq_var=1]])"
+			},
+			{
+				"qName": "TTestw_Lower",
+				"qGroup": "PROB",
+				"qSignature": "num TTestw_Lower (weight, grp, value[, sig = 0.025[, eq_var=1[, weight_type=0]]])"
+			},
+			{
+				"qName": "TTest_Upper",
+				"qGroup": "PROB",
+				"qSignature": "num TTest_Upper (grp, value[, sig = 0.025[, eq_var=1]])"
+			},
+			{
+				"qName": "TTestw_Upper",
+				"qGroup": "PROB",
+				"qSignature": "num TTestw_Upper (weight, grp, value[, sig = 0.025[, eq_var=1[, weight_type=0]]])"
+			},
+			{
+				"qName": "TTest1_t",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1_t (value)"
+			},
+			{
+				"qName": "TTest1w_t",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1w_t (weight, value[, weight_type=0])"
+			},
+			{
+				"qName": "TTest1_DF",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1_DF (value)"
+			},
+			{
+				"qName": "TTest1w_DF",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1w_DF (weight, value[, weight_type=0])"
+			},
+			{
+				"qName": "TTest1_Sig",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1_Sig (value)"
+			},
+			{
+				"qName": "TTest1w_Sig",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1w_Sig (weight, value[, weight_type=0])"
+			},
+			{
+				"qName": "TTest1_Dif",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1_Dif (value)"
+			},
+			{
+				"qName": "TTest1w_Dif",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1w_Dif (weight, value)"
+			},
+			{
+				"qName": "TTest1_StErr",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1_StErr (value)"
+			},
+			{
+				"qName": "TTest1w_StErr",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1w_StErr (weight, value[, weight_type=0])"
+			},
+			{
+				"qName": "TTest1_Conf",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1_Conf (value[, sig = 0.025])"
+			},
+			{
+				"qName": "TTest1w_Conf",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1w_Conf (weight, value[, sig = 0.025[, weight_type=0]])"
+			},
+			{
+				"qName": "TTest1_Lower",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1_Lower (value[, sig = 0.025])"
+			},
+			{
+				"qName": "TTest1w_Lower",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1w_Lower (weight, value[, sig = 0.025[, weight_type=0]])"
+			},
+			{
+				"qName": "TTest1_Upper",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1_Upper (value[, sig = 0.025])"
+			},
+			{
+				"qName": "TTest1w_Upper",
+				"qGroup": "PROB",
+				"qSignature": "num TTest1w_Upper (weight, value[, sig = 0.025[, weight_type=0]])"
+			},
+			{
+				"qName": "ZTest_z",
+				"qGroup": "PROB",
+				"qSignature": "num ZTest_z (value[, sigma])"
+			},
+			{
+				"qName": "ZTestw_z",
+				"qGroup": "PROB",
+				"qSignature": "num ZTestw_z (weight, value[, sigma[, weight_type=0]])"
+			},
+			{
+				"qName": "ZTest_Sig",
+				"qGroup": "PROB",
+				"qSignature": "num ZTest_Sig (value[, sigma])"
+			},
+			{
+				"qName": "ZTestw_Sig",
+				"qGroup": "PROB",
+				"qSignature": "num ZTestw_Sig (weight, value[, sigma[, weight_type=0]])"
+			},
+			{
+				"qName": "ZTest_Dif",
+				"qGroup": "PROB",
+				"qSignature": "num ZTest_Dif (value[, UNUSED_sigma])"
+			},
+			{
+				"qName": "ZTestw_Dif",
+				"qGroup": "PROB",
+				"qSignature": "num ZTestw_Dif (weight, value[, UNUSED_sigma])"
+			},
+			{
+				"qName": "ZTest_StErr",
+				"qGroup": "PROB",
+				"qSignature": "num ZTest_StErr (value[, sigma])"
+			},
+			{
+				"qName": "ZTestw_StErr",
+				"qGroup": "PROB",
+				"qSignature": "num ZTestw_StErr (weight, value[, sigma[, weight_type=0]])"
+			},
+			{
+				"qName": "ZTest_Conf",
+				"qGroup": "PROB",
+				"qSignature": "num ZTest_Conf (value[, sigma[, sig = 0.025]])"
+			},
+			{
+				"qName": "ZTestw_Conf",
+				"qGroup": "PROB",
+				"qSignature": "num ZTestw_Conf (weight, value[, sigma[, sig = 0.025[, weight_type=0]]])"
+			},
+			{
+				"qName": "ZTest_Lower",
+				"qGroup": "PROB",
+				"qSignature": "num ZTest_Lower (value[, sigma[, sig = 0.025]])"
+			},
+			{
+				"qName": "ZTestw_Lower",
+				"qGroup": "PROB",
+				"qSignature": "num ZTestw_Lower (weight, value[, sigma[, sig = 0.025[, weight_type=0]]])"
+			},
+			{
+				"qName": "ZTest_Upper",
+				"qGroup": "PROB",
+				"qSignature": "num ZTest_Upper (value[, sigma[, sig = 0.025]])"
+			},
+			{
+				"qName": "ZTestw_Upper",
+				"qGroup": "PROB",
+				"qSignature": "num ZTestw_Upper (weight, value[, sigma[, sig = 0.025[, weight_type=0]]])"
+			},
+			{
+				"qName": "Chi2Test_p",
+				"qGroup": "PROB",
+				"qSignature": "num Chi2Test_p (col, row, actual_value[, expected_value])"
+			},
+			{
+				"qName": "Chi2Test_DF",
+				"qGroup": "PROB",
+				"qSignature": "num Chi2Test_DF (col, row, actual_value[, expected_value])"
+			},
+			{
+				"qName": "Chi2Test_Chi2",
+				"qGroup": "PROB",
+				"qSignature": "num Chi2Test_Chi2 (col, row, actual_value[, expected_value])"
+			},
+			{
+				"qName": "If",
+				"qGroup": "CND",
+				"qSignature": "dual If (condition, then_expr [, else_expr])"
+			},
+			{
+				"qName": "Pick",
+				"qGroup": "CND",
+				"qSignature": "dual Pick (position, ...)"
+			},
+			{
+				"qName": "Match",
+				"qGroup": "CND",
+				"qSignature": "int Match (text, mask_expr1, ...)"
+			},
+			{
+				"qName": "MixMatch",
+				"qGroup": "CND",
+				"qSignature": "int MixMatch (text, mask_expr1, ...)"
+			},
+			{
+				"qName": "WildMatch",
+				"qGroup": "CND",
+				"qSignature": "int WildMatch (text, mask_expr1, ...)"
+			},
+			{
+				"qName": "Alt",
+				"qGroup": "CND",
+				"qSignature": "dual Alt (expr1, ...)"
+			},
+			{
+				"qName": "Coalesce",
+				"qGroup": "CND",
+				"qSignature": "dual Coalesce (expr1, ...)"
+			},
+			{
+				"qName": "EmptyIsNull",
+				"qGroup": "CND",
+				"qSignature": "dual EmptyIsNull (expr1)"
+			},
+			{
+				"qName": "Trim",
+				"qGroup": "STR",
+				"qSignature": "str Trim (text)"
+			},
+			{
+				"qName": "LTrim",
+				"qGroup": "STR",
+				"qSignature": "str LTrim (text)"
+			},
+			{
+				"qName": "RTrim",
+				"qGroup": "STR",
+				"qSignature": "str RTrim (text)"
+			},
+			{
+				"qName": "PurgeChar",
+				"qGroup": "STR",
+				"qSignature": "str PurgeChar (text, remove_chars)"
+			},
+			{
+				"qName": "LevenshteinDist",
+				"qGroup": "STR",
+				"qSignature": "int LevenshteinDist (text1, text2)"
+			},
+			{
+				"qName": "KeepChar",
+				"qGroup": "STR",
+				"qSignature": "str KeepChar (text, keep_chars)"
+			},
+			{
+				"qName": "Left",
+				"qGroup": "STR",
+				"qSignature": "str Left (text, count)"
+			},
+			{
+				"qName": "Right",
+				"qGroup": "STR",
+				"qSignature": "str Right (text, count)"
+			},
+			{
+				"qName": "Mid",
+				"qGroup": "STR",
+				"qSignature": "str Mid (text, start [, count])"
+			},
+			{
+				"qName": "SubField",
+				"qGroup": "STR",
+				"qSignature": "str SubField (text, delimiter [, field_no=1])"
+			},
+			{
+				"qName": "TextBetween",
+				"qGroup": "STR",
+				"qSignature": "str TextBetween (text, delimiter1, delimiter2 [, count=1])"
+			},
+			{
+				"qName": "Repeat",
+				"qGroup": "STR",
+				"qSignature": "str Repeat (text, repeat_count)"
+			},
+			{
+				"qName": "Chr",
+				"qGroup": "STR",
+				"qSignature": "str Chr (int)"
+			},
+			{
+				"qName": "Class",
+				"qGroup": "CND",
+				"qSignature": "str Class (x, class_width [, formal [, bias=0]])"
+			},
+			{
+				"qName": "Index",
+				"qGroup": "STR",
+				"qSignature": "int Index (text, substring [, count])"
+			},
+			{
+				"qName": "FindOneOf",
+				"qGroup": "STR",
+				"qSignature": "int FindOneOf (text, char_set [, count])"
+			},
+			{
+				"qName": "Len",
+				"qGroup": "STR",
+				"qSignature": "int Len (text)"
+			},
+			{
+				"qName": "Mod",
+				"qGroup": "NUM",
+				"qSignature": "int Mod (integer_number1, integer_number2)"
+			},
+			{
+				"qName": "Odd",
+				"qGroup": "NUM",
+				"qSignature": "bool Odd (integer_number)"
+			},
+			{
+				"qName": "Even",
+				"qGroup": "NUM",
+				"qSignature": "bool Even (integer_number)"
+			},
+			{
+				"qName": "UTC",
+				"qGroup": "DATE",
+				"qSignature": "num UTC ([realtime=1])"
+			},
+			{
+				"qName": "GMT",
+				"qGroup": "DATE",
+				"qSignature": "num GMT ([realtime=1])"
+			},
+			{
+				"qName": "Now",
+				"qGroup": "DATE",
+				"qSignature": "num Now ([timer_mode=1])"
+			},
+			{
+				"qName": "Today",
+				"qGroup": "DATE",
+				"qSignature": "num Today ([timer_mode=2])"
+			},
+			{
+				"qName": "ElapsedSeconds",
+				"qGroup": "DATE",
+				"qSignature": "num ElapsedSeconds ()"
+			},
+			{
+				"qName": "Hour",
+				"qGroup": "DATE",
+				"qSignature": "int Hour (timestamp)"
+			},
+			{
+				"qName": "Minute",
+				"qGroup": "DATE",
+				"qSignature": "int Minute (timestamp)"
+			},
+			{
+				"qName": "Second",
+				"qGroup": "DATE",
+				"qSignature": "int Second (timestamp)"
+			},
+			{
+				"qName": "Frac",
+				"qGroup": "NUM",
+				"qSignature": "num Frac (timestamp)"
+			},
+			{
+				"qName": "Div",
+				"qGroup": "NUM",
+				"qSignature": "int Div (integer_number1, integer_number2)"
+			},
+			{
+				"qName": "Dual",
+				"qGroup": "NUMI",
+				"qSignature": "dual Dual (text, number)"
+			},
+			{
+				"qName": "BitCount",
+				"qGroup": "NUM",
+				"qSignature": "int BitCount (integer_number)"
+			},
+			{
+				"qName": "Ord",
+				"qGroup": "STR",
+				"qSignature": "int Ord (char)"
+			},
+			{
+				"qName": "Upper",
+				"qGroup": "STR",
+				"qSignature": "str Upper (text)"
+			},
+			{
+				"qName": "ApplyCodepage",
+				"qGroup": "STR",
+				"qSignature": "str ApplyCodepage (text, codepage)"
+			},
+			{
+				"qName": "Lower",
+				"qGroup": "STR",
+				"qSignature": "str Lower (text)"
+			},
+			{
+				"qName": "Capitalize",
+				"qGroup": "STR",
+				"qSignature": "str Capitalize (text)"
+			},
+			{
+				"qName": "RGB",
+				"qGroup": "CLR",
+				"qSignature": "int RGB (r_value, g_value, b_value)"
+			},
+			{
+				"qName": "ARGB",
+				"qGroup": "CLR",
+				"qSignature": "int ARGB (alpha_value, r_value, g_value, b_value)"
+			},
+			{
+				"qName": "HSL",
+				"qGroup": "CLR",
+				"qSignature": "int HSL (hue, saturation, luminosity)"
+			},
+			{
+				"qName": "Color",
+				"qGroup": "CLR",
+				"qSignature": "int Color (palette_index)"
+			},
+			{
+				"qName": "SysColor",
+				"qGroup": "CLR",
+				"qSignature": "int SysColor (sys_index)"
+			},
+			{
+				"qName": "ColorMix1",
+				"qGroup": "CLR",
+				"qSignature": "int ColorMix1 (ValueBetweenZeroAndOne, ColorZero, ColorOne)"
+			},
+			{
+				"qName": "ColorMix2",
+				"qGroup": "CLR",
+				"qSignature": "int ColorMix2 (ValueBetweenMinusOneAndOne, ColorMinusOne, ColorOne [, ColorZero])"
+			},
+			{
+				"qName": "ColorMapJet",
+				"qGroup": "CLR",
+				"qSignature": "int ColorMapJet (ValueBetweenZeroAndOne)"
+			},
+			{
+				"qName": "ColorMapHue",
+				"qGroup": "CLR",
+				"qSignature": "int ColorMapHue (ValueBetweenZeroAndOne)"
+			},
+			{
+				"qName": "IsNull",
+				"qGroup": "NULL",
+				"qSignature": "bool IsNull (expr)"
+			},
+			{
+				"qName": "IsNum",
+				"qGroup": "LOG",
+				"qSignature": "bool IsNum (expr)"
+			},
+			{
+				"qName": "IsText",
+				"qGroup": "LOG",
+				"qSignature": "bool IsText (expr)"
+			},
+			{
+				"qName": "RowNo",
+				"qGroup": "RCRD",
+				"qSignature": "int RowNo ([TOTAL])"
+			},
+			{
+				"qName": "NoOfRows",
+				"qGroup": "TBL",
+				"qSignature": "int NoOfRows ([TOTAL])"
+			},
+			{
+				"qName": "ColumnNo",
+				"qGroup": "RCRD",
+				"qSignature": "int ColumnNo ([TOTAL])"
+			},
+			{
+				"qName": "NoOfColumns",
+				"qGroup": "TBL",
+				"qSignature": "int NoOfColumns ([TOTAL])"
+			},
+			{
+				"qName": "Column",
+				"qGroup": "TBL",
+				"qSignature": "dual Column (int ColumnNo)"
+			},
+			{
+				"qName": "Dimensionality",
+				"qGroup": "RCRD",
+				"qSignature": "int Dimensionality ()"
+			},
+			{
+				"qName": "SecondaryDimensionality",
+				"qGroup": "RCRD",
+				"qSignature": "int SecondaryDimensionality ()"
+			},
+			{
+				"qName": "Timestamp",
+				"qGroup": "NUMI",
+				"qSignature": "dual Timestamp (number [, format])"
+			},
+			{
+				"qName": "Date",
+				"qGroup": "NUMI",
+				"qSignature": "dual Date (number [, format])"
+			},
+			{
+				"qName": "Time",
+				"qGroup": "NUMI",
+				"qSignature": "dual Time (number [, format])"
+			},
+			{
+				"qName": "Interval",
+				"qGroup": "NUMI",
+				"qSignature": "dual Interval (number [, format])"
+			},
+			{
+				"qName": "Num",
+				"qGroup": "NUMI",
+				"qSignature": "dual Num (number [, format [,dec_sep [, thou_sep]]])"
+			},
+			{
+				"qName": "Money",
+				"qGroup": "NUMI",
+				"qSignature": "dual Money (number [, format [,dec_sep [, thou_sep]]])"
+			},
+			{
+				"qName": "Text",
+				"qGroup": "NUMI",
+				"qSignature": "dual Text (expr)"
+			},
+			{
+				"qName": "Timestamp#",
+				"qGroup": "NUMI",
+				"qSignature": "dual Timestamp# (text [, format])"
+			},
+			{
+				"qName": "Date#",
+				"qGroup": "NUMI",
+				"qSignature": "dual Date# (text [, format])"
+			},
+			{
+				"qName": "Time#",
+				"qGroup": "NUMI",
+				"qSignature": "dual Time# (text [, format])"
+			},
+			{
+				"qName": "Interval#",
+				"qGroup": "NUMI",
+				"qSignature": "dual Interval# (text [, format])"
+			},
+			{
+				"qName": "Num#",
+				"qGroup": "NUMI",
+				"qSignature": "dual Num# (text [, format [,dec_sep [, thou_sep]]])"
+			},
+			{
+				"qName": "Money#",
+				"qGroup": "NUMI",
+				"qSignature": "dual Money# (text [, format [,dec_sep [, thou_sep]]])"
+			},
+			{
+				"qName": "Month",
+				"qGroup": "DATE",
+				"qSignature": "int Month (timestamp)"
+			},
+			{
+				"qName": "Day",
+				"qGroup": "DATE",
+				"qSignature": "int Day (timestamp)"
+			},
+			{
+				"qName": "Week",
+				"qGroup": "DATE",
+				"qSignature": "int Week (timestamp [, first_week_day=0 [, broken_weeks=0 [, reference_day=4]]])"
+			},
+			{
+				"qName": "WeekDay",
+				"qGroup": "DATE",
+				"qSignature": "int WeekDay (timestamp [, first_week_day=0])"
+			},
+			{
+				"qName": "WeekYear",
+				"qGroup": "DATE",
+				"qSignature": "int WeekYear (timestamp [, first_week_day=0 [, broken_weeks = 0 [, reference_day = 4]]])"
+			},
+			{
+				"qName": "Year",
+				"qGroup": "DATE",
+				"qSignature": "int Year (timestamp)"
+			},
+			{
+				"qName": "Age",
+				"qGroup": "DATE",
+				"qSignature": "int Age (timestamp, date_of_birth)"
+			},
+			{
+				"qName": "NetWorkDays",
+				"qGroup": "DATE",
+				"qSignature": "int NetWorkDays (start_date, end_date [, holiday, ...])"
+			},
+			{
+				"qName": "LastWorkDate",
+				"qGroup": "DATE",
+				"qSignature": "int LastWorkDate (start_date, no_of_workdays [, holiday, ...])"
+			},
+			{
+				"qName": "FirstWorkDate",
+				"qGroup": "DATE",
+				"qSignature": "int FirstWorkDate (end_date, no_of_workdays [, holiday, ...])"
+			},
+			{
+				"qName": "MakeDate",
+				"qGroup": "DATE",
+				"qSignature": "dual MakeDate (year_number [, month_number=1 [, day_number=1]])"
+			},
+			{
+				"qName": "MakeWeekDate",
+				"qGroup": "DATE",
+				"qSignature": "dual MakeWeekDate (weekyear_number, week_number [, weekday_number=0])"
+			},
+			{
+				"qName": "AddMonths",
+				"qGroup": "DATE",
+				"qSignature": "dual AddMonths (date, no_of_months [, mode=1])"
+			},
+			{
+				"qName": "AddYears",
+				"qGroup": "DATE",
+				"qSignature": "dual AddYears (date, no_of_years)"
+			},
+			{
+				"qName": "MakeTime",
+				"qGroup": "DATE",
+				"qSignature": "dual MakeTime (hour [, minute=0 [, second=0]])"
+			},
+			{
+				"qName": "NumSum",
+				"qGroup": "LEG",
+				"qSignature": "num NumSum (first_expr, ...)"
+			},
+			{
+				"qName": "NumMin",
+				"qGroup": "LEG",
+				"qSignature": "num NumMin (first_expr, ...)"
+			},
+			{
+				"qName": "NumMax",
+				"qGroup": "LEG",
+				"qSignature": "num NumMax (first_expr, ...)"
+			},
+			{
+				"qName": "NumAvg",
+				"qGroup": "LEG",
+				"qSignature": "num NumAvg (first_expr, ...)"
+			},
+			{
+				"qName": "NumCount",
+				"qGroup": "LEG",
+				"qSignature": "int NumCount (first_expr, ...)"
+			},
+			{
+				"qName": "RangeNumericCount",
+				"qGroup": "RNG",
+				"qSignature": "int RangeNumericCount (first_expr, ...)"
+			},
+			{
+				"qName": "RangeSum",
+				"qGroup": "RNG",
+				"qSignature": "num RangeSum (first_expr, ...)"
+			},
+			{
+				"qName": "RangeMin",
+				"qGroup": "RNG",
+				"qSignature": "num RangeMin (first_expr, ...)"
+			},
+			{
+				"qName": "RangeMax",
+				"qGroup": "RNG",
+				"qSignature": "num RangeMax (first_expr, ...)"
+			},
+			{
+				"qName": "RangeAvg",
+				"qGroup": "RNG",
+				"qSignature": "num RangeAvg (first_expr, ...)"
+			},
+			{
+				"qName": "RangeStDev",
+				"qGroup": "RNG",
+				"qSignature": "num RangeStDev (first_expr, ...)"
+			},
+			{
+				"qName": "RangeSkew",
+				"qGroup": "RNG",
+				"qSignature": "num RangeSkew (first_expr, ...)"
+			},
+			{
+				"qName": "RangeKurtosis",
+				"qGroup": "RNG",
+				"qSignature": "num RangeKurtosis (first_expr, ...)"
+			},
+			{
+				"qName": "RangeNullCount",
+				"qGroup": "RNG",
+				"qSignature": "int RangeNullCount (first_expr, ...)"
+			},
+			{
+				"qName": "RangeTextCount",
+				"qGroup": "RNG",
+				"qSignature": "int RangeTextCount (first_expr, ...)"
+			},
+			{
+				"qName": "RangeMissingCount",
+				"qGroup": "RNG",
+				"qSignature": "int RangeMissingCount (first_expr, ...)"
+			},
+			{
+				"qName": "RangeCount",
+				"qGroup": "RNG",
+				"qSignature": "int RangeCount (first_expr, ...)"
+			},
+			{
+				"qName": "RangeOnly",
+				"qGroup": "RNG",
+				"qSignature": "dual RangeOnly (first_expr, ...)"
+			},
+			{
+				"qName": "RangeMinString",
+				"qGroup": "RNG",
+				"qSignature": "str RangeMinString (first_expr, ...)"
+			},
+			{
+				"qName": "RangeMaxString",
+				"qGroup": "RNG",
+				"qSignature": "str RangeMaxString (first_expr, ...)"
+			},
+			{
+				"qName": "RangeMode",
+				"qGroup": "RNG",
+				"qSignature": "num RangeMode (first_expr, ...)"
+			},
+			{
+				"qName": "RangeFractile",
+				"qGroup": "RNG",
+				"qSignature": "num RangeFractile (fractile, first_expr, ...)"
+			},
+			{
+				"qName": "RangeFractileExc",
+				"qGroup": "RNG",
+				"qSignature": "num RangeFractileExc (fractile, first_expr, ...)"
+			},
+			{
+				"qName": "KMeansND",
+				"qGroup": "RNK",
+				"qSignature": "dual KMeansND (num_clusters, num_iter, first_expr, ...)"
+			},
+			{
+				"qName": "KMeansCentroidND",
+				"qGroup": "RNK",
+				"qSignature": "dual KMeansCentroidND (num_clusters, num_iter, dimension, first_expr, ...)"
+			},
+			{
+				"qName": "KMeans2D",
+				"qGroup": "RNK",
+				"qSignature": "dual KMeans2D (num_clusters, first_expr, second_expr [, norm])"
+			},
+			{
+				"qName": "KMeansCentroid2D",
+				"qGroup": "RNK",
+				"qSignature": "dual KMeansCentroid2D (num_clusters, dimension, first_expr, second_expr [, norm])"
+			},
+			{
+				"qName": "Rank",
+				"qGroup": "RNK",
+				"qSignature": "dual Rank ([TOTAL] expr [, mode=0 [, fmt=0]])"
+			},
+			{
+				"qName": "VRank",
+				"qGroup": "RNK",
+				"qSignature": "dual VRank ([TOTAL] expr [, mode=0 [, fmt=0]])"
+			},
+			{
+				"qName": "HRank",
+				"qGroup": "RNK",
+				"qSignature": "dual HRank ([TOTAL] expr [, mode=0 [, fmt=0]])"
+			},
+			{
+				"qName": "Top",
+				"qGroup": "RCRD",
+				"qSignature": "dual Top ([TOTAL] expr [, offset=1[, count=1]])"
+			},
+			{
+				"qName": "Bottom",
+				"qGroup": "RCRD",
+				"qSignature": "dual Bottom ([TOTAL] expr [, offset=1[, count=1]])"
+			},
+			{
+				"qName": "Above",
+				"qGroup": "RCRD",
+				"qSignature": "dual Above ([TOTAL] expr [, offset=1[, count=1]])"
+			},
+			{
+				"qName": "Below",
+				"qGroup": "RCRD",
+				"qSignature": "dual Below ([TOTAL] expr [, offset=1[, count=1]])"
+			},
+			{
+				"qName": "First",
+				"qGroup": "RCRD",
+				"qSignature": "dual First ([TOTAL] expr [, offset=1[, count=1]])"
+			},
+			{
+				"qName": "Before",
+				"qGroup": "RCRD",
+				"qSignature": "dual Before ([TOTAL] expr [, offset=1[, count=1]])"
+			},
+			{
+				"qName": "After",
+				"qGroup": "RCRD",
+				"qSignature": "dual After ([TOTAL] expr [, offset=1[, count=1]])"
+			},
+			{
+				"qName": "Last",
+				"qGroup": "RCRD",
+				"qSignature": "dual Last ([TOTAL] expr [, offset=1[, count=1]])"
+			},
+			{
+				"qName": "Info",
+				"qGroup": "STR",
+				"qSignature": "str Info (field_name)"
+			},
+			{
+				"qName": "FieldValue",
+				"qGroup": "TBL",
+				"qSignature": "dual FieldValue (field_name, elem_no)"
+			},
+			{
+				"qName": "FieldValueCount",
+				"qGroup": "TBL",
+				"qSignature": "int FieldValueCount (field_name)"
+			},
+			{
+				"qName": "FieldIndex",
+				"qGroup": "TBL",
+				"qSignature": "int FieldIndex (field_name, value)"
+			},
+			{
+				"qName": "FieldElemNo",
+				"qGroup": "TBL",
+				"qSignature": "int FieldElemNo (field_name)"
+			},
+			{
+				"qName": "GetPossibleCount",
+				"qGroup": "TBL",
+				"qSignature": "int GetPossibleCount (field_name)"
+			},
+			{
+				"qName": "GetSelectedCount",
+				"qGroup": "TBL",
+				"qSignature": "int GetSelectedCount (field_name [, include_excluded=false [, state_name]])"
+			},
+			{
+				"qName": "GetNotSelectedCount",
+				"qGroup": "TBL",
+				"qSignature": "int GetNotSelectedCount (field_name [, include_excluded=false])"
+			},
+			{
+				"qName": "GetExcludedCount",
+				"qGroup": "TBL",
+				"qSignature": "int GetExcludedCount (field_name)"
+			},
+			{
+				"qName": "GetAlternativeCount",
+				"qGroup": "TBL",
+				"qSignature": "int GetAlternativeCount (field_name)"
+			},
+			{
+				"qName": "GetFieldSelections",
+				"qGroup": "TBL",
+				"qSignature": "str GetFieldSelections (field_name [, value_sep [, max_values=6 [, state_name]]])"
+			},
+			{
+				"qName": "GetCurrentSelections",
+				"qGroup": "TBL",
+				"qSignature": "str GetCurrentSelections ([record_sep [, tag_sep [, value_sep [, max_values=6 [, state_name]]]]])"
+			},
+			{
+				"qName": "StateName",
+				"qGroup": "SYS",
+				"qSignature": "str StateName ()"
+			},
+			{
+				"qName": "Hash128",
+				"qGroup": "STR",
+				"qSignature": "str Hash128 (expr, ...)"
+			},
+			{
+				"qName": "Hash160",
+				"qGroup": "STR",
+				"qSignature": "str Hash160 (expr, ...)"
+			},
+			{
+				"qName": "Hash256",
+				"qGroup": "STR",
+				"qSignature": "str Hash256 (expr, ...)"
+			},
+			{
+				"qName": "Replace",
+				"qGroup": "STR",
+				"qSignature": "str Replace (text, from_str, to_str)"
+			},
+			{
+				"qName": "SubStringCount",
+				"qGroup": "STR",
+				"qSignature": "num SubStringCount (text, sub_string)"
+			},
+			{
+				"qName": "OSUser",
+				"qGroup": "SYS",
+				"qSignature": "str OSUser ()"
+			},
+			{
+				"qName": "GetDataModelHash",
+				"qGroup": "SYS",
+				"qSignature": "str GetDataModelHash ()"
+			},
+			{
+				"qName": "DocumentPath",
+				"qGroup": "SYS",
+				"qSignature": "str DocumentPath ()"
+			},
+			{
+				"qName": "DocumentName",
+				"qGroup": "SYS",
+				"qSignature": "str DocumentName ()"
+			},
+			{
+				"qName": "DocumentTitle",
+				"qGroup": "SYS",
+				"qSignature": "str DocumentTitle ()"
+			},
+			{
+				"qName": "GetCollationLocale",
+				"qGroup": "SYS",
+				"qSignature": "str GetCollationLocale ()"
+			},
+			{
+				"qName": "QlikViewVersion",
+				"qGroup": "LEG",
+				"qSignature": "str QlikViewVersion ()"
+			},
+			{
+				"qName": "ProductVersion",
+				"qGroup": "SYS",
+				"qSignature": "str ProductVersion ()"
+			},
+			{
+				"qName": "EngineVersion",
+				"qGroup": "SYS",
+				"qSignature": "str EngineVersion ()"
+			},
+			{
+				"qName": "QVUser",
+				"qGroup": "LEG",
+				"qSignature": "str QVUser ()"
+			},
+			{
+				"qName": "ComputerName",
+				"qGroup": "SYS",
+				"qSignature": "str ComputerName ()"
+			},
+			{
+				"qName": "Author",
+				"qGroup": "SYS",
+				"qSignature": "str Author ()"
+			},
+			{
+				"qName": "ReloadTime",
+				"qGroup": "SYS",
+				"qSignature": "dual ReloadTime ()"
+			},
+			{
+				"qName": "GetObjectField",
+				"qGroup": "TBL",
+				"qSignature": "str GetObjectField ([index [, objectid]])"
+			},
+			{
+				"qName": "GetObjectDimension",
+				"qGroup": "TBL",
+				"qSignature": "str GetObjectDimension ([index [, objectid]])"
+			},
+			{
+				"qName": "GetObjectMeasure",
+				"qGroup": "TBL",
+				"qSignature": "str GetObjectMeasure ([index [, objectid]])"
+			},
+			{
+				"qName": "ClientPlatform",
+				"qGroup": "SYS",
+				"qSignature": "str ClientPlatform()"
+			},
+			{
+				"qName": "CalcDim",
+				"qGroup": "SYS",
+				"qSignature": "dual CalcDim (expr)"
+			},
+			{
+				"qName": "AsField",
+				"qGroup": "SYS",
+				"qSignature": "dual AsField (expr)"
+			},
+			{
+				"qName": "DayNumberOfYear",
+				"qGroup": "DATE",
+				"qSignature": "int DayNumberOfYear (timestamp [, start_month = 1])"
+			},
+			{
+				"qName": "DayNumberOfQuarter",
+				"qGroup": "DATE",
+				"qSignature": "int DayNumberOfQuarter (timestamp [, start_month = 1])"
+			},
+			{
+				"qName": "Year2Date",
+				"qGroup": "DATE",
+				"qSignature": "bool Year2Date (timestamp [, year_offset=0 [, start_month = 1 [, ref_timestamp]]])"
+			},
+			{
+				"qName": "YearToDate",
+				"qGroup": "DATE",
+				"qSignature": "bool YearToDate (timestamp [, year_offset=0 [, start_month = 1 [, ref_timestamp]]])"
+			},
+			{
+				"qName": "InYear",
+				"qGroup": "DATE",
+				"qSignature": "bool InYear (timestamp, base_date, period_no [, first_month_of_year=1])"
+			},
+			{
+				"qName": "InYearToDate",
+				"qGroup": "DATE",
+				"qSignature": "bool InYearToDate (timestamp, base_date, period_no [, first_month_of_year=1])"
+			},
+			{
+				"qName": "InQuarter",
+				"qGroup": "DATE",
+				"qSignature": "bool InQuarter (timestamp, base_date, period_no [, first_month_of_year=1])"
+			},
+			{
+				"qName": "InQuarterToDate",
+				"qGroup": "DATE",
+				"qSignature": "bool InQuarterToDate (timestamp, base_date, period_no [, first_month_of_year=1])"
+			},
+			{
+				"qName": "InMonth",
+				"qGroup": "DATE",
+				"qSignature": "bool InMonth (timestamp, base_date, period_no [, first_month_of_year=1])"
+			},
+			{
+				"qName": "InMonthToDate",
+				"qGroup": "DATE",
+				"qSignature": "bool InMonthToDate (timestamp, base_date, period_no [, first_month_of_year=1])"
+			},
+			{
+				"qName": "InMonths",
+				"qGroup": "DATE",
+				"qSignature": "bool InMonths (int n_months, timestamp, base_date, period_no [, first_month_of_year=1])"
+			},
+			{
+				"qName": "InMonthsToDate",
+				"qGroup": "DATE",
+				"qSignature": "bool InMonthsToDate (int n_months, timestamp, base_date, period_no [, first_month_of_year=1])"
+			},
+			{
+				"qName": "InWeek",
+				"qGroup": "DATE",
+				"qSignature": "bool InWeek (timestamp, base_date, period_no [, first_week_day=0])"
+			},
+			{
+				"qName": "InWeekToDate",
+				"qGroup": "DATE",
+				"qSignature": "bool InWeekToDate (timestamp, base_date, period_no [, first_week_day=0])"
+			},
+			{
+				"qName": "InLunarWeek",
+				"qGroup": "DATE",
+				"qSignature": "bool InLunarWeek (timestamp, base_date, period_no [, first_week_day=0])"
+			},
+			{
+				"qName": "InLunarWeekToDate",
+				"qGroup": "DATE",
+				"qSignature": "bool InLunarWeekToDate (timestamp, base_date, period_no [, first_week_day=0])"
+			},
+			{
+				"qName": "InDay",
+				"qGroup": "DATE",
+				"qSignature": "bool InDay (timestamp, base_timestamp, period_no [, day_start])"
+			},
+			{
+				"qName": "InDayToTime",
+				"qGroup": "DATE",
+				"qSignature": "bool InDayToTime (timestamp, base_timestamp, period_no [, day_start])"
+			},
+			{
+				"qName": "YearStart",
+				"qGroup": "DATE",
+				"qSignature": "dual YearStart (date [, period_no = 0 [, first_month_of_year=1]])"
+			},
+			{
+				"qName": "QuarterStart",
+				"qGroup": "DATE",
+				"qSignature": "dual QuarterStart (date [, period_no = 0 [, first_month_of_year=1]])"
+			},
+			{
+				"qName": "MonthStart",
+				"qGroup": "DATE",
+				"qSignature": "dual MonthStart (date[, period_no = 0])"
+			},
+			{
+				"qName": "MonthsStart",
+				"qGroup": "DATE",
+				"qSignature": "dual MonthsStart (int n_months, date [, period_no = 0 [, first_month_of_year=1]])"
+			},
+			{
+				"qName": "WeekStart",
+				"qGroup": "DATE",
+				"qSignature": "dual WeekStart (date [, period_no = 0 [, first_week_day=0]])"
+			},
+			{
+				"qName": "LunarWeekStart",
+				"qGroup": "DATE",
+				"qSignature": "dual LunarWeekStart (date [, period_no = 0 [, first_week_day=0]])"
+			},
+			{
+				"qName": "DayStart",
+				"qGroup": "DATE",
+				"qSignature": "dual DayStart (time [, period_no = 0 [, day_start]])"
+			},
+			{
+				"qName": "YearEnd",
+				"qGroup": "DATE",
+				"qSignature": "dual YearEnd (date [, period_no = 0 [, first_month_of_year=1]])"
+			},
+			{
+				"qName": "QuarterEnd",
+				"qGroup": "DATE",
+				"qSignature": "dual QuarterEnd (date [, period_no = 0 [, first_month_of_year=1]])"
+			},
+			{
+				"qName": "MonthEnd",
+				"qGroup": "DATE",
+				"qSignature": "dual MonthEnd (date[, period_no = 0])"
+			},
+			{
+				"qName": "MonthsEnd",
+				"qGroup": "DATE",
+				"qSignature": "dual MonthsEnd (int n_months, date [, period_no = 0 [, first_month_of_year=1]])"
+			},
+			{
+				"qName": "WeekEnd",
+				"qGroup": "DATE",
+				"qSignature": "dual WeekEnd (date [, period_no = 0 [, first_week_day=0]])"
+			},
+			{
+				"qName": "LunarWeekEnd",
+				"qGroup": "DATE",
+				"qSignature": "dual LunarWeekEnd (date [, period_no = 0 [, first_week_day=0]])"
+			},
+			{
+				"qName": "DayEnd",
+				"qGroup": "DATE",
+				"qSignature": "dual DayEnd (time [, period_no = 0 [, day_start]])"
+			},
+			{
+				"qName": "YearName",
+				"qGroup": "DATE",
+				"qSignature": "dual YearName (date [, period_no = 0 [, first_month_of_year=1]])"
+			},
+			{
+				"qName": "QuarterName",
+				"qGroup": "DATE",
+				"qSignature": "dual QuarterName (date [, period_no = 0 [, first_month_of_year=1]])"
+			},
+			{
+				"qName": "MonthName",
+				"qGroup": "DATE",
+				"qSignature": "dual MonthName (date[, period_no = 0])"
+			},
+			{
+				"qName": "MonthsName",
+				"qGroup": "DATE",
+				"qSignature": "dual MonthsName (int n_months, date [, period_no = 0 [, first_month_of_year=1]])"
+			},
+			{
+				"qName": "WeekName",
+				"qGroup": "DATE",
+				"qSignature": "dual WeekName (date [, period_no = 0 [, first_week_day=0 [, broken_weeks = 0 [, reference_day = 4]]]])"
+			},
+			{
+				"qName": "LunarWeekName",
+				"qGroup": "DATE",
+				"qSignature": "dual LunarWeekName (date [, period_no = 0 [, first_week_day=0]])"
+			},
+			{
+				"qName": "DayName",
+				"qGroup": "DATE",
+				"qSignature": "dual DayName (time [, period_no = 0 [, day_start]])"
+			},
+			{
+				"qName": "SetDateYear",
+				"qGroup": "DATE",
+				"qSignature": "dual SetDateYear (timestamp, year)"
+			},
+			{
+				"qName": "SetDateYearMonth",
+				"qGroup": "DATE",
+				"qSignature": "dual SetDateYearMonth (timestamp, year, month)"
+			},
+			{
+				"qName": "LocalTime",
+				"qGroup": "DATE",
+				"qSignature": "dual LocalTime ([place [, ignore_dst=false]])"
+			},
+			{
+				"qName": "ConvertToLocalTime",
+				"qGroup": "DATE",
+				"qSignature": "dual ConvertToLocalTime (timestamp [, place [, ignore_dst=false]])"
+			},
+			{
+				"qName": "Aggr",
+				"qGroup": "ARRAY",
+				"qSignature": "dual Aggr ([DISTINCT][NODISTINCT] expr, (dim_and_sort), ...)"
+			},
+			{
+				"qName": "ValueList",
+				"qGroup": "ARRAY",
+				"qSignature": "dual ValueList (v1, ...)"
+			},
+			{
+				"qName": "ValueLoop",
+				"qGroup": "ARRAY",
+				"qSignature": "dual ValueLoop (from[, to[, step]])"
+			},
+			{
+				"qName": "Sum",
+				"qGroup": "AGGR",
+				"qSignature": "num Sum ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "Min",
+				"qGroup": "AGGR",
+				"qSignature": "num Min ([ALL][TOTAL] expr [, rank])"
+			},
+			{
+				"qName": "Max",
+				"qGroup": "AGGR",
+				"qSignature": "num Max ([ALL][TOTAL] expr [, rank])"
+			},
+			{
+				"qName": "Avg",
+				"qGroup": "AGGR",
+				"qSignature": "num Avg ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "StDev",
+				"qGroup": "AGGR",
+				"qSignature": "num StDev ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "Skew",
+				"qGroup": "AGGR",
+				"qSignature": "num Skew ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "Kurtosis",
+				"qGroup": "AGGR",
+				"qSignature": "num Kurtosis ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "NumericCount",
+				"qGroup": "AGGR",
+				"qSignature": "int NumericCount ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "NullCount",
+				"qGroup": "AGGR",
+				"qSignature": "int NullCount ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "TextCount",
+				"qGroup": "AGGR",
+				"qSignature": "int TextCount ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "Count",
+				"qGroup": "AGGR",
+				"qSignature": "int Count ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "MissingCount",
+				"qGroup": "AGGR",
+				"qSignature": "int MissingCount ([DISTINCT][ALL][TOTAL] expr)"
+			},
+			{
+				"qName": "MinString",
+				"qGroup": "AGGR",
+				"qSignature": "dual MinString ([TOTAL] expr)"
+			},
+			{
+				"qName": "MaxString",
+				"qGroup": "AGGR",
+				"qSignature": "dual MaxString ([TOTAL] expr)"
+			},
+			{
+				"qName": "Only",
+				"qGroup": "AGGR",
+				"qSignature": "dual Only ([TOTAL] expr)"
+			},
+			{
+				"qName": "Mode",
+				"qGroup": "AGGR",
+				"qSignature": "dual Mode ([TOTAL] expr)"
+			},
+			{
+				"qName": "Fractile",
+				"qGroup": "AGGR",
+				"qSignature": "num Fractile ([TOTAL][ALL][DISTINCT] expr, fraction)"
+			},
+			{
+				"qName": "Median",
+				"qGroup": "AGGR",
+				"qSignature": "num Median ([TOTAL][ALL][DISTINCT] expr)"
+			},
+			{
+				"qName": "StErr",
+				"qGroup": "AGGR",
+				"qSignature": "num StErr ([DISTINCT][TOTAL] expr)"
+			},
+			{
+				"qName": "FractileExc",
+				"qGroup": "AGGR",
+				"qSignature": "num FractileExc ([TOTAL][ALL][DISTINCT] expr, fraction)"
+			},
+			{
+				"qName": "Concat",
+				"qGroup": "AGGR",
+				"qSignature": "str Concat ([DISTINCT][TOTAL] string [, delimiter [, sort_weight]])"
+			},
+			{
+				"qName": "FirstSortedValue",
+				"qGroup": "AGGR",
+				"qSignature": "dual FirstSortedValue ([DISTINCT][ALL][TOTAL] value, sort_weight [, rank])"
+			},
+			{
+				"qName": "Npv",
+				"qGroup": "FIN",
+				"qSignature": "num Npv ([TOTAL] discount_rate, value)"
+			},
+			{
+				"qName": "Irr",
+				"qGroup": "FIN",
+				"qSignature": "num Irr ([TOTAL] value)"
+			},
+			{
+				"qName": "Xnpv",
+				"qGroup": "FIN",
+				"qSignature": "num Xnpv ([TOTAL] discount_rate, pmt, date)"
+			},
+			{
+				"qName": "Xirr",
+				"qGroup": "FIN",
+				"qSignature": "num Xirr ([TOTAL] pmt, date)"
+			},
+			{
+				"qName": "FPSum",
+				"qGroup": "AGGR",
+				"qSignature": "num FPSum( value1 )"
+			},
+			{
+				"qName": "Correl",
+				"qGroup": "AGGR",
+				"qSignature": "num Correl ([TOTAL] value1, value2)"
+			},
+			{
+				"qName": "StEYX",
+				"qGroup": "AGGR",
+				"qSignature": "num StEYX ([TOTAL] y_value, x_value)"
+			},
+			{
+				"qName": "LinEst_B",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_B ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "LinEst_DF",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_DF ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "LinEst_F",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_F ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "LinEst_M",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_M ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "LinEst_R2",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_R2 ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "LinEst_SEB",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_SEB ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "LinEst_SEM",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_SEM ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "LinEst_SEY",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_SEY ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "LinEst_SSReg",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_SSReg ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "LinEst_SSResid",
+				"qGroup": "AGGR",
+				"qSignature": "num LinEst_SSResid ([TOTAL] y_value, x_value [, y0_const [, x0_const = 0]])"
+			},
+			{
+				"qName": "PythonProphet.Prophet",
+				"qGroup": "EXT",
+				"qSignature": "num PythonProphet.Prophet( str adjustments, num changePoint, num dateStamp, num figures, str forecastLevel, num forecastPeriod, str forecastReturnType, num fourierOrder, str outliers )"
+			},
+			{
+				"qName": "PythonProphet.ProphetScript",
+				"qGroup": "EXT",
+				"qSignature": "num PythonProphet.ProphetScript( num dateStamp, num figures, num forecastPeriod, str forecastType )"
+			},
+			{
+				"qName": "PythonProphet.ScriptEval",
+				"qGroup": "EXT",
+				"qSignature": "num PythonProphet.ScriptEval(script, ...)"
+			},
+			{
+				"qName": "PythonProphet.ScriptEvalEx",
+				"qGroup": "EXT",
+				"qSignature": "num PythonProphet.ScriptEvalEx(args, script, ...)"
+			},
+			{
+				"qName": "PythonProphet.ScriptEvalStr",
+				"qGroup": "EXT",
+				"qSignature": "str PythonProphet.ScriptEvalStr(script, ...)"
+			},
+			{
+				"qName": "PythonProphet.ScriptEvalExStr",
+				"qGroup": "EXT",
+				"qSignature": "str PythonProphet.ScriptEvalExStr(args, script, ...)"
+			},
+			{
+				"qName": "PythonProphet.ScriptAggr",
+				"qGroup": "EXT",
+				"qSignature": "num PythonProphet.ScriptAggr(script, ...)"
+			},
+			{
+				"qName": "PythonProphet.ScriptAggrEx",
+				"qGroup": "EXT",
+				"qSignature": "num PythonProphet.ScriptAggrEx(args, script, ...)"
+			},
+			{
+				"qName": "PythonProphet.ScriptAggrStr",
+				"qGroup": "EXT",
+				"qSignature": "num PythonProphet.ScriptAggrStr(script, ...)"
+			},
+			{
+				"qName": "PythonProphet.ScriptAggrExStr",
+				"qGroup": "EXT",
+				"qSignature": "num PythonProphet.ScriptAggrExStr(args, script, ...)"
+			}
+		]
+	}
+}
